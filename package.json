@@ -1,0 +1,13 @@
+{
+  "name": "tic-tac-toe",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Public demo target for the agentic-sdlc Ralph loop (tic-tac-toe + planted anti-diagonal bug).",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node --test tictactoe.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
