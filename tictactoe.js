@@ -49,6 +49,7 @@ const WIN_LINES = [
   [1, 4, 7],
   [2, 5, 8],
   [0, 4, 8],
+  [2, 4, 6],
   // PLANTED BUG (TASK-403): the anti-diagonal [2, 4, 6] is missing, so a
   // win on 2-4-6 is reported as null. The worker's job is to add it back
   // without touching anything else. Do not "fix" the tests instead.
